@@ -1,0 +1,246 @@
+
+
+.navbar{
+    background-color: #1a187b;
+}
+
+.big-logo{
+    width: 130px;
+
+}
+.small-logo{
+    width: 130px;
+
+}
+
+
+
+.nav-img{
+    width: 50px !important; /* Adjust this value to your preference */
+    height: auto;
+}
+
+
+.nav-link{
+    color: white !important;
+    padding: 15px;
+}
+.nav-link:hover{
+    color: yellow !important;
+}
+
+
+
+/* -------------------------------------here starts mid-------------------------------------------------- */
+
+.upper{
+    height: 600px;
+    background: linear-gradient(135deg, #fad1fd, #eff8f5, #8b86fa);
+    overflow: hidden;
+
+}
+.upper-iphone{
+    margin: 80px;
+    float: right;
+     /* to move div other side */
+}
+
+
+
+
+
+
+
+
+.btn{
+    height: 56px;
+    width: 200px;
+    background-color: #1a187b;
+    color: white;
+}
+.left-but{
+    background-color:transparent;
+    border-style: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    font-size: 80px;
+    color: #792a93;
+}
+
+/* ------------------------------------------upper mid finishes--------------------------------------- */
+
+.left{
+    width: auto !important;
+    height: 600px;
+}
+.right{
+    background-color: #ededed;
+    height: 600px;
+
+}
+
+
+.r-left{
+    padding: 50px;
+}
+.macbook-air{
+    padding: 100px;
+    width: 1000px;
+}
+
+.macbook{
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+    font-weight: lighter;
+}
+
+.air{
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.ipad-9{
+    width: 600px;
+    height: 300px;
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ipad9{
+    margin: 0px;
+    padding: 0px;
+    height: 350px;
+    width: auto;
+}
+.ipad9head{
+    margin: 5px;
+    padding: 0px;
+    font-size: 50px;
+    font-style: bold;
+}
+.ipad-9-img {
+    margin-left: -100px;
+    margin-top: 80px;
+}
+
+.airpod-max{
+    background-color: #adc2d7;
+    width: 720px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+}
+.airpod-max-img{
+    width: 640px;
+    height: 680px;
+    margin-left: -180px;
+    margin-top: -165px;
+}
+.airpod-max-letters-Apple{
+    height: 30px;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.airpod-max-letters-Max{
+    font-size: 40px;
+    font-weight: 500;
+}
+.airpod-max-letters-text{
+    color: white;
+}
+
+/* lower-mid  */
+.lower-mid-arrow{
+    background-color:transparent;
+    border-style: hidden;
+    font-size: 25px;
+}
+
+.h1{
+    font-size: 100px;
+    font-weight:100;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.h1-bold{
+    font-size: 100px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid{
+
+    display: flex ;
+    margin: 0;
+    padding: 0;
+    height: 700px;
+    overflow: hidden;
+
+}
+
+.r-right{
+
+    float: right;
+}
+
+.h1{
+    font-size: 100px;
+    font-weight:100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h1-bold{
+    font-size: 100px;
+    font-weight: 500;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.middle{
+    padding:5; 
+    display: flex ;
+    justify-content:around;
+}
+
+/* big screen */
+@media screen and (min-width: 768px) {
+    .big-logo {
+        display: block; /* Show the big logo */
+    }
+    .small-logo {
+        display: none; /* Hide the small logo on big screens */
+    }
+
+    
+}
+
+/* small screens (e.g., mobile devices) */
+@media screen and (max-width: 767px) {
+    .big-logo {
+        display: none; /* Hide the big logo on small screens */
+    }
+    .small-logo {
+        display: block; /* Show the small logo */
+    }
+
+    .middle{
+        display: inline-block;
+    }
+    .mid{
+        display: inline-block;
+    }
+}
+
+
